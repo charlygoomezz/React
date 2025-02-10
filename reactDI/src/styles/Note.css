@@ -1,0 +1,36 @@
+.note_tittle{
+    font-weight: var(--fw-semibold);
+    font-size: var(--fs-xl);
+    color: var(--color-secondary);
+
+}
+.note_groupIcon{
+    display:flex;
+    gap:var(--spacing-md)
+}
+.note_contanier{
+    margin-top: var(--spacing-md);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));/*Con esto o hacemos responsive*/
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+.note_add {
+    position: fixed;
+    bottom: var(--spacing-md);
+    right: var(--spacing-md);
+    background-color: var(--color-primary);
+    border: none;
+    border-radius: 100%;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 8px 1px;
+}
+.note_add svg {
+    height:var(--fs-xxl);
+    width: var(--fs-xxl);
+    color: var(--color-secondary);
+
+}

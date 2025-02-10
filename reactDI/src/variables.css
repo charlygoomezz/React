@@ -1,0 +1,60 @@
+/**Fuente Nunito*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+:root{
+   /*Colors*/
+   /*Interfaz nota*/
+    --color-primary:#252525;
+    --color-secondary:#FFFFFF;
+    --color-terciary:#3B3B3B;/*Accent*/
+
+    --button-save:#30BE71;
+    --button-discard:#FF0000;
+
+
+    /*Notes*/
+    --notes1:#FD99FF;
+    --notes2:#FF9E9E;
+    --notes3:#91F48F;
+    --notes4:#FFF599;
+    --notes5:#9EFFFF;
+    --notes6:#B69CFF;
+
+   
+    --font--primary-color:#FFFFFF;
+    --font--secondary-color:#9A9A9A;
+    
+
+   /*Fonts*/
+   --font-primary:"Nunito",sans-serif;
+   /*Font Weight*/
+   --font-weigth-bold: 800;
+   --font-weigth-semibold: 600;
+   --font-weigth-regular: 400;
+   --font-weigth-light: 300;
+   --font-weigth-thin: 200;
+
+    /*Fonts */
+    --fs-xs: clamp(0.64rem, 0.04vi + 0.63rem, 0.67rem);
+    --fs-sm: clamp(0.8rem, 0.13vi + 0.77rem, 0.89rem);
+    --fs-base: clamp(1rem, 0.27vi + 0.95rem, 1.19rem);
+    --fs-md: clamp(1.25rem, 0.48vi + 1.15rem, 1.58rem);
+    --fs-lg: clamp(1.56rem, 0.79vi + 1.4rem, 2.11rem);
+    --fs-xl: clamp(1.95rem, 1.23vi + 1.7rem, 2.81rem);
+    --fs-xxl: clamp(2.44rem, 1.88vi + 2.06rem, 3.75rem);
+    --fs-xxxl: clamp(3.05rem, 2.79vi + 2.48rem, 5rem);
+    
+     /*Letter Spacing*/
+    --letter-spacing-text: 1rem;
+    --line-height-text: 1.5;
+
+    /*Spacing*/
+    --spacing-xxs: 0.25rem;
+    --spacing-xs:0.5rem;
+    --spacing-sm:0.75rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 2rem;
+    --spacing-xle: 3rem;
+    --spacing-xxl: 4rem;
+}

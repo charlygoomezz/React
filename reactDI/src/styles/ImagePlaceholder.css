@@ -1,0 +1,20 @@
+.imagePlaceholder{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50dvw;
+    height: 50dvw;
+}
+.imagePlaceholder_image{
+    height: 100%;
+    width:100%;
+}
+.imagePlaceholder_text{
+    color: var(--color-secondary);
+    font-weight: var(--fw-light);
+    font-size: var(--fs-base);
+}

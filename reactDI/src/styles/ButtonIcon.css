@@ -1,0 +1,16 @@
+.buttonIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-terciary);
+    border: none;
+    padding: 0.5em;
+    border-radius: 8px;
+    color:var(--color-secondary)
+}
+
+.buttonIcon_icon  svg{
+    /*Esto permite un redimensionamiento automático*/
+    width: var(--fs-base);
+    height: var(--fs-base);
+}

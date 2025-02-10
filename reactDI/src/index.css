@@ -1,0 +1,15 @@
+/*En el index.cssresets, imports globales y propagacion de fuentes
+y color background si lo comparten*/
+@import url('./variables.css');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: var(--color-primary);
+    font-family: var(--font-primary);/*Las fuentes se herendan para toda la app*/
+}
+
+
