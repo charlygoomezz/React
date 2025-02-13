@@ -8,7 +8,7 @@ padding: 0;
 box-sizing: border-box;
 }
 body{
-    background-color: var(--color-primary);
+    background-color: var(--color-terciary);
     font-family: var(--font-primary);/*Las fuentes se herendan para toda la app*/
 }
 

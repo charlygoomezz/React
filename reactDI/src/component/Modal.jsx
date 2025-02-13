@@ -3,9 +3,15 @@ import'../styles/Modal.css'
 
 export default function Modal(props) {
     return(
-        <div className='imagePlaceholder'>
-            <img className='imagePlaceholder_image' src="/Users/charlygoomezz/Desktop/ReactDI/reactDI/src/assets/a0c6e54564983ed54d21877a26ecceb1.jpg" alt="Imagen" />
-            <p className='imagePlaceholder_text'></p>
+        <div className='modal'>
+            <div className='modal_info'>i</div>
+            <p className='modal_question'>{props.message}</p>
+            <div className='modal_buttons'>
+                <button className='modal_buttons-no' onClick={props.onCancel}>Discard</button>
+                <button className='modal_buttons-yes' onClick={props.onSave} >Save</button>
+            </div>
         </div>
+        
+
     )
 }

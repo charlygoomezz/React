@@ -1,0 +1,59 @@
+.modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary);
+    width: 250px; 
+    min-height: 150px; 
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.modal_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-fourty);
+    color: var(--color-primary);
+    font-size: var(--fs-sm);
+    font-weight: var(--font-weigth-bold);
+    width: 20px; 
+    height: 20px;
+    border-radius: 50%;
+    margin-bottom: 10px; 
+}
+
+.modal_question {
+    color: var(--color-secondary);
+    font-size: var(--fs-base); 
+    font-weight: var(--font-weigth-thin);
+    max-width: 80%; 
+}
+
+.modal_buttons {
+    display: flex;
+    width: 100%;
+    height: auto;
+    gap: 25px; 
+    margin-top: 15px;
+}
+
+.modal_buttons-no, .modal_buttons-yes {
+    flex: 1;
+    border: none;
+    padding: 8px;
+    font-size: var(--fs-sm);
+    font-weight:  var(--font-weight-regular);
+    color: var(--color-secondary);
+    border-radius: 5px;
+}
+
+.modal_buttons-no {
+    background-color:var(--button-discard);
+}
+
+.modal_buttons-yes {
+    background-color: var(--button-save);
+}
