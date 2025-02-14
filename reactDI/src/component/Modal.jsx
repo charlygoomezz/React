@@ -1,14 +1,15 @@
 import React from 'react';
 import'../styles/Modal.css'
+import{FaInfoCircle} from 'react-icons/fa'
 
 export default function Modal(props) {
     return(
         <div className='modal'>
-            <div className='modal_info'>i</div>
-            <p className='modal_question'>{props.message}</p>
-            <div className='modal_buttons'>
-                <button className='modal_buttons-no' onClick={props.onCancel}>Discard</button>
-                <button className='modal_buttons-yes' onClick={props.onSave} >Save</button>
+            <FaInfoCircle className='modal__icon'/>
+            <p className='modal__text'>{props.message}</p>
+            <div className='modal__buttonWrapper'>
+                <button className='modal__button modal__button--danger '>{props.buttonText.bTextRed}</button>
+                <button className='modal__button modal__button--okey'>{props.buttonText.bTextGreen}</button>
             </div>
         </div>
         

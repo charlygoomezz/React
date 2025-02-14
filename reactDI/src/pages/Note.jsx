@@ -6,6 +6,7 @@ import ImagePlaceholder from '../component/imagePlaceholder';
 import Header from '../component/Header';
 import NoteItem from '../component/NoteItem';
 import'../styles/Note.css'  
+import { Link } from 'react-router-dom';
 
 export default function Note() {
 
@@ -31,9 +32,9 @@ export default function Note() {
         : <ImagePlaceholder  image="/src/assets/charmander.jpg" 
         text="Create your first note!"/>}
     </div>
-    <button className='note_add'>
+    <Link to='/edit' className='note_add'>
       <IoIosAdd />
-    </button>
+    </Link>
     </>
   )
 }

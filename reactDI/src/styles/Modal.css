@@ -1,59 +1,56 @@
 .modal {
+    position: fixed;
+    top:50%;
+    left: 50%;
+    translate: -50% -50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: var(--color-primary);
-    width: 250px; 
-    min-height: 150px; 
-    padding: 20px;
-    border-radius: 15px;
-    text-align: center;
+    width: 80%; 
+    padding: 1.5em;
+    border-radius: 16px;
+    gap: var(--spacing-md);
+    min-width: 12.5rem;
+    max-width: 20rem;
 }
 
-.modal_info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color-fourty);
-    color: var(--color-primary);
+.modal__icon {
+    color: var(--color-fourty);
     font-size: var(--fs-sm);
     font-weight: var(--font-weigth-bold);
-    width: 20px; 
-    height: 20px;
-    border-radius: 50%;
-    margin-bottom: 10px; 
 }
 
-.modal_question {
+.modal__text {
     color: var(--color-secondary);
     font-size: var(--fs-base); 
     font-weight: var(--font-weigth-thin);
-    max-width: 80%; 
+    text-align: center;
 }
 
-.modal_buttons {
+.modal__buttonWrapper {
     display: flex;
     width: 100%;
-    height: auto;
-    gap: 25px; 
-    margin-top: 15px;
+    justify-content: space-between;
+    gap:var(--spacing-xl);
+    flex-wrap: wrap;
 }
 
-.modal_buttons-no, .modal_buttons-yes {
+.modal__button {
     flex: 1;
     border: none;
-    padding: 8px;
+    padding: .5em 1.5em ;
     font-size: var(--fs-sm);
     font-weight:  var(--font-weight-regular);
     color: var(--color-secondary);
-    border-radius: 5px;
+    border-radius: 6px;
 }
 
-.modal_buttons-no {
+.modal__button--danger {
     background-color:var(--button-discard);
 }
 
-.modal_buttons-yes {
+.modal__button--okey {
     background-color: var(--button-save);
 }
