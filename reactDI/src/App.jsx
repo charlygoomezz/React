@@ -11,12 +11,12 @@ export default function App() {
   return(
     <div className='app'>
       <FilterInput/>
-    {/* <BrowserRouter>
+    <BrowserRouter>
     <Routes>
       <Route path='/' element={<Note notes={notes}/>}/>
-      <Route path='/edit' element={<EditNote notes={notes} setNotes ={setNotes} />}/>
+      <Route path='/edit/:id?' element={<EditNote notes={notes} setNotes ={setNotes} />}/>
     </Routes>
-    </BrowserRouter> */}
+    </BrowserRouter>
     </div>
   )
 }

@@ -43,7 +43,7 @@ export default function Note(props) {
     </Header>
     <div className='note_contanier'>
       {notesFiltered.length > 0 ?
-        notesFiltered.map(elem =>  <NoteItem key={elem.id} date={elem.date} tittle={elem.tittle} description={elem.description} color={elem.color}/> )
+        notesFiltered.map(elem =>  <NoteItem key={elem.id} id={elem.id} date={elem.date} tittle={elem.tittle} description={elem.description} color={elem.color}/> )
         : <ImagePlaceholder  image="/src/assets/charmander.jpg" 
         text="Create your first note!"/>}
     </div>
