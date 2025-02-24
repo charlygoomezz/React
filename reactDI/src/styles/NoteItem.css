@@ -13,3 +13,8 @@
     font-size: var(--fs-base);
     font-weight: var(--fw-thin);
 }
+.noteItem_date{
+    color: var(--color-primary);
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-thin);
+}
